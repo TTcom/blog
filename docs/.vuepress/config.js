@@ -5,7 +5,7 @@ module.exports = {
   title: 'Uphold',
   description: 'Just playing around',
   port: 8082,
-  head: [['link', { rel: 'icon', href: '/alien.ico' }]],
+  head: [['link', { rel: 'icon', href: 'alien.ico' }]],
   theme: defaultTheme({
     navbar: nav,
     sidebar: {

@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-
+#vuepress1.0时使用
 # 确保脚本抛出遇到的错误
 set -e
 

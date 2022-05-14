@@ -5,7 +5,7 @@
 <div class="custom-container tip"><p class="custom-container-title"><span style="color:#999;font-weight: initial;">不积跬步，无以至千里</span></p>
 <p> </p>
 </div>
-<div class="custom-container tip"><p class="custom-container-title">使用说明</p>
+<div class="custom-container tip"><p class="custom-container-title">使用说明11</p>
 <p>npm install vuepress<br>
 npm run dev
  </p>
