@@ -5,7 +5,7 @@
 ::: tip <span style="color:#999;font-weight: initial;">不积跬步，无以至千里</span>
 &ensp;                     				  
 :::
-::: tip 使用说明
+::: tip 使用说明11
 npm install vuepress<br>
 npm run dev
 &ensp;                     				  
