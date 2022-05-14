@@ -14,5 +14,5 @@ npm run dev
 <div class="custom-container tip"><p class="custom-container-title"><span style="color:#999;font-weight: initial;"><a href="http://caibaojian.com/vuepress/">vuepress官网查看文档快速完成博客网页开发</a></span></p>
 <p> </p>
 </div>
-<img src="futrue.jpg" style="width:400px"/>
+<img :src="$withBase('futrue.jpg')"  style="width:400px"/>
 </template>

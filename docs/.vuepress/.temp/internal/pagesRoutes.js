@@ -8,8 +8,6 @@ const routeItems = [
   ["v-73fec0b6","/git/pullRequest.html",{"title":""},["/git/pullRequest","/git/pullRequest.md"]],
   ["v-74473916","/git/",{"title":"git命令"},["/git/index.html","/git/README.md"]],
   ["v-4fc1118c","/git/vuepress2.html",{"title":"部署在GitHub Pages"},["/git/vuepress2","/git/vuepress2.md"]],
-  ["v-e9a1f7e4","/nginx/",{"title":"nginx"},["/nginx/index.html","/nginx/README.md"]],
-  ["v-f0383c18","/linux/",{"title":"Linux常用命令"},["/linux/index.html","/linux/README.md"]],
   ["v-443dbc5a","/javascript/algorithm.html",{"title":"算法"},["/javascript/algorithm","/javascript/algorithm.md"]],
   ["v-7c534eda","/javascript/call_apply_bind.html",{"title":"call_apply_bind"},["/javascript/call_apply_bind","/javascript/call_apply_bind.md"]],
   ["v-e39c19f0","/javascript/event.html",{"title":"js自定义事件"},["/javascript/event","/javascript/event.md"]],
@@ -20,6 +18,8 @@ const routeItems = [
   ["v-e02a086e","/javascript/",{"title":"javascript"},["/javascript/index.html","/javascript/README.md"]],
   ["v-17def97b","/javascript/regex.html",{"title":"正则使用（vscode,金额）"},["/javascript/regex","/javascript/regex.md"]],
   ["v-f33e46fa","/javascript/time.html",{"title":"时间相关操作"},["/javascript/time","/javascript/time.md"]],
+  ["v-f0383c18","/linux/",{"title":"Linux常用命令"},["/linux/index.html","/linux/README.md"]],
+  ["v-e9a1f7e4","/nginx/",{"title":"nginx"},["/nginx/index.html","/nginx/README.md"]],
   ["v-c9438ac2","/note/aboutcss.html",{"title":"页面动态更换主题"},["/note/aboutcss","/note/aboutcss.md"]],
   ["v-792f5e2c","/note/aboutiframe.html",{"title":"iframe父子页面信息传递"},["/note/aboutiframe","/note/aboutiframe.md"]],
   ["v-370c5ad5","/note/aboutios.html",{"title":"ios中嵌入web页面研发问题"},["/note/aboutios","/note/aboutios.md"]],
@@ -45,7 +45,6 @@ const routeItems = [
   ["v-dc3b2a6e","/react/",{"title":"react"},["/react/index.html","/react/README.md"]],
   ["v-1f08952a","/typescript/fun.html",{"title":"函数"},["/typescript/fun","/typescript/fun.md"]],
   ["v-6da6abb1","/typescript/",{"title":"typescript 简介"},["/typescript/index.html","/typescript/README.md"]],
-  ["v-a686174a","/webpack/",{"title":"webpack"},["/webpack/index.html","/webpack/README.md"]],
   ["v-2baf570a","/vue/appendbody.html",{"title":"vue中将弹出框插入body中"},["/vue/appendbody","/vue/appendbody.md"]],
   ["v-3da03dbc","/vue/axios_intercept.html",{"title":"axios全局拦截配置"},["/vue/axios_intercept","/vue/axios_intercept.md"]],
   ["v-de86e38c","/vue/clickoutside.html",{"title":"vue中点击空白处隐藏弹出框"},["/vue/clickoutside","/vue/clickoutside.md"]],
@@ -65,6 +64,7 @@ const routeItems = [
   ["v-ea20ec34","/vue/vue_proxy.html",{"title":"vue_proxy"},["/vue/vue_proxy","/vue/vue_proxy.md"]],
   ["v-36142440","/vue/vue_template_invscode.html",{"title":"vue_template_invscode"},["/vue/vue_template_invscode","/vue/vue_template_invscode.md"]],
   ["v-0e341ec9","/vue/vue_transition.html",{"title":"vue_transition"},["/vue/vue_transition","/vue/vue_transition.md"]],
+  ["v-a686174a","/webpack/",{"title":"webpack"},["/webpack/index.html","/webpack/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 

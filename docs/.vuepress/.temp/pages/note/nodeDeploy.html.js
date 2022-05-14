@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652535468000,
+    "contributors": [
+      {
+        "name": "ttcom",
+        "email": "1902305073@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "note/nodeDeploy.md"
 }

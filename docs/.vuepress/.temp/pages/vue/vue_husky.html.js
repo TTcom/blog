@@ -92,8 +92,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652535468000,
+    "contributors": [
+      {
+        "name": "ttcom",
+        "email": "1902305073@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "vue/vue_husky.md"
 }
