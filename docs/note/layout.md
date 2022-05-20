@@ -1,4 +1,7 @@
 # 移动端调试和适配问题
+### 使用vw单位适配
+- 参考链接https://juejin.cn/post/7061866685166256142
+- postcss-px-to-viewport依赖作者长时间未更新导致include无效，可安装postcss-px-to-viewport-update替换
 ### 关于连接真机进行移动端调试问题
 - 使用chrome调试需要科学上网地址栏输入chrome://inspect会打开设备监视页面 
 - 使用edg浏览器调试需要科学上网地址栏输入edge://inspect/#devices，然后等待页面出现WebView in com.tdh.shell.app (65.0.3325.110)点击inspect

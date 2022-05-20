@@ -3,7 +3,7 @@ module.exports = [
     { text: 'study', link: '/note/' },
     { text: 'vue', link: '/vue/' },
     { text: 'react', link: '/react/' },
-    { text: '数组练习', link: '/array/' },
+    { text: 'array', link: '/array/' },
     { text: 'javascript', link: '/javascript/' },
     { text: 'typescript', link: '/typescript/' },
     { text: 'webpack', link: '/webpack/' },

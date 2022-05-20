@@ -2,8 +2,8 @@ const nav = require('./nav.js')
 const { defaultTheme } = require('vuepress')
 module.exports = {
   base:"/blog/",
-  title: 'Uphold',
-  description: 'Just playing around',
+  title: 'WakeUp',
+  description: "Don't need say more",
   port: 8082,
   head: [['link', { rel: 'icon', href: 'alien.ico' }]],
   theme: defaultTheme({
