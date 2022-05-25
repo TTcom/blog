@@ -1,5 +1,18 @@
 # git命令
-### git 用一次新的commit来回滚之前的commit
+### git 删除某一次的commit提交记录，并且不保留记录
+- 参看链接https://tiven.cn/p/b87d03eb/
+- git log 查看提交记录
+- git rebase -i <commit_id> //commit_id为你要删除的commit的上一次commit
+- 输入i进行编辑，将需要删除的commit之前的pick修改为drop
+- shift zz保存退出
+- 最后：解决冲突，强制推送更新到远程
+```js
+git add .                   # 冲突时使用
+git commit -m "new commit"  # 冲突时使用
+git rebase --continue       # 冲突时使用
+git push origin master -
+```
+### git 用一次新的commit来回滚之前的commit,并且保留记录
 - git revert <commit_id> 如果是回滚之前的merge的commit使用git revert -m 1 <commit_id>
 
 ### gitlab网页 分支合并 冲突处理
