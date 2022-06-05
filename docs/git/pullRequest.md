@@ -1,4 +1,4 @@
-### 向开源项目提PR
+# 向开源项目提PR
 
 - 先点击右上角的fork项目，然后项目会出现在自己的github上面
 - 然后git clone 出现在自己的github上面的这个项目
@@ -8,3 +8,4 @@
 - git checkout -b xxx 创建本地分支
 - 修改代码并提交
 - 提交成功后就可以Create pull request，需要检查内容和分支是否争取
+- [来源地址](https://xie.infoq.cn/article/056d8e9c078ac6a327b66bf3e) 

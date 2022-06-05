@@ -97,6 +97,10 @@ module.exports = {
           children:['aboutgit.md']
         },
         {
+          text: '向开源项目提PR',
+          children:['pullRequest.md']
+        },
+        {
           text: 'vuepress2.0部署',
           children:['vuepress2.md']
         },
