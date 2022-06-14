@@ -1,4 +1,8 @@
 # git命令
+### git 查看当前分支从哪个分支创建的
+使用git reflog --date=local | grep +分支名
+
+
 ### git 删除某一次的commit提交记录，并且不保留记录
 - 参看链接https://tiven.cn/p/b87d03eb/
 - git log 查看提交记录
