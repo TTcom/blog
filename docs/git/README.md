@@ -21,6 +21,12 @@ git push origin master -
 ### 查看git的所有配置
 git config --global -l 
 
+### git代理设置终极方案
+- git config --global http.proxy 127.0.0.1:7890
+- git config --global https.proxy 127.0.0.1:7890
+- git config --global remote.origin.proxy 127.0.0.1:7890
+- [来源地址](https://www.jianshu.com/p/cba0877e1fc6)
+
 ### 最新git代理设置方案
 - 只对github.com
 - git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
