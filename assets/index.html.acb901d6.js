@@ -1,0 +1,1 @@
+const t={key:"v-6da6abb1",path:"/typescript/",title:"typescript \u7B80\u4ECB",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u5B66\u4E60\u6587\u6863",slug:"\u5B66\u4E60\u6587\u6863",children:[]}],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"typescript/README.md"};export{t as data};

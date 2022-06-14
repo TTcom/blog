@@ -1,0 +1,1 @@
+const t={key:"v-370c5ad5",path:"/note/aboutios.html",title:"ios\u4E2D\u5D4C\u5165web\u9875\u9762\u7814\u53D1\u95EE\u9898",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"note/aboutios.md"};export{t as data};

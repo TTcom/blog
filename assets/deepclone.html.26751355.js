@@ -1,0 +1,1 @@
+const e={key:"v-876a08a8",path:"/note/deepclone.html",title:"\u6DF1\u62F7\u8D1D\u4E0E\u6D45\u62F7\u8D1D",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"note/deepclone.md"};export{e as data};

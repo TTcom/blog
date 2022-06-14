@@ -1,0 +1,1 @@
+const t={key:"v-49b49395",path:"/vue/slideTransition.html",title:"vue\u9875\u9762\u5207\u6362\u52A8\u753B",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"vue/slideTransition.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-56bb70ce",path:"/vue/funcomponent.html",title:"vue\u51FD\u6570\u5F0F\u7EC4\u4EF6",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"vue/funcomponent.md"};export{e as data};

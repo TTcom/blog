@@ -1,0 +1,1 @@
+const t={key:"v-d3a00f4a",path:"/vue/vuebuttonauth.html",title:"Vue\u4E2D\u6309\u94AE\u6743\u9650\u8BBE\u7F6E",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"vue/vuebuttonauth.md"};export{t as data};

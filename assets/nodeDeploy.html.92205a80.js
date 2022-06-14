@@ -1,0 +1,1 @@
+const e={key:"v-7bbcd14c",path:"/note/nodeDeploy.html",title:"node\u9879\u76EE\u90E8\u7F72",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"note/nodeDeploy.md"};export{e as data};

@@ -1,0 +1,1 @@
+const t={key:"v-6f5b56ea",path:"/note/aboutwechat.html",title:"\u5FAE\u4FE1\u516C\u4F17\u53F7\u7814\u53D1\u95EE\u9898",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"note/aboutwechat.md"};export{t as data};

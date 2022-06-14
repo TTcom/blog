@@ -1,0 +1,1 @@
+const t={key:"v-3da03dbc",path:"/vue/axios_intercept.html",title:"axios\u5168\u5C40\u62E6\u622A\u914D\u7F6E",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"vue/axios_intercept.md"};export{t as data};

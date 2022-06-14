@@ -1,0 +1,1 @@
+const t={key:"v-4fc1118c",path:"/git/vuepress2.html",title:"\u90E8\u7F72\u5728GitHub Pages",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652535468e3,contributors:[{name:"ttcom",email:"1902305073@qq.com",commits:1}]},filePathRelative:"git/vuepress2.md"};export{t as data};
