@@ -3,8 +3,7 @@
 ### git 重新提交commit 信息
 - git commit --amend -m "新的修改提交信息"
 #### git如何撤销commit的方法(未push)
-<img :src="$withBase('/gitcommit.png')" alt="mixureSecure">
-
+![foo](/gitcommit.png){data-zoomable}
 - git 撤销指定文件 git checkout 文件名
 
 - 主要介绍了git如何撤销commit的方法(未push)
@@ -108,7 +107,7 @@ c）规则：
 
 
 ### git stash
-
+```js
 1、 git stash save "save message"  : 执行存储时，添加备注，方便查找，只有git stash 也要可以的，但查找时不方便识别。
 
 2、git stash list  ：查看stash了哪些存储
@@ -122,3 +121,4 @@ c）规则：
 6、git stash drop stash@{$num} ：丢弃stash@{$num}存储，从列表中删除这个存储
 
 7、git stash clear ：删除所有缓存的stash
+```

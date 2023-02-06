@@ -1,14 +1,22 @@
 {
-  "name": "vue-press",
+  "name": "vite-interview",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "medium-zoom": "^1.0.8",
+    "vitepress": "1.0.0-alpha.45"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.43"
+    "vue": "^3.2.47"
   }
 }
