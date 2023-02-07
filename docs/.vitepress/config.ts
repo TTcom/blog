@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-
+  base: '/blog/',
   themeConfig: {
     siteTitle: '学习指南',
     logo: '/dogs.png',
