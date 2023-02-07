@@ -1,7 +1,7 @@
 # vueplugin
 ## vuex-persist数据持久化
 ::: tip vuex-persist
-  <span>Vuex持久化存储之<a href="https://github.com/championswimmer/vuex-persist" target="view_window">vuex-persist</a></span> 🎉 💯
+  <span>Vuex持久化存储之<a href="https://github.com/championswimmer/vuex-persist"  target="_blank" rel="noreferrer">vuex-persist</a></span> 🎉 💯
 :::
 ```js
 1、持久化所有的状态

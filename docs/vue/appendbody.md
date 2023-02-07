@@ -3,7 +3,6 @@
 ```vue
 <template>
   <div class="select-model">
-    <!-- 匹配列表 使用visibility才能获取隐藏元素宽高 -->
     <div class="select-option-wrap" @click="ischoice = !ischoice">
       <ul class="select-drop-list" v-for="(item index) in 6" :key="index" v-show="ischoice">
         <li class="each-item">{{item.label}}</li>

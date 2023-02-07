@@ -1,7 +1,7 @@
 # vue_antic
-- jsx
+## jsx
 - https://www.cnblogs.com/ainyi/p/13324222.html
-- 防抖节流函数
+## 防抖节流函数
 ```js
   const debounced = (fn, deplay) => {
     let timer
@@ -18,13 +18,13 @@
 ```
 
 
-2、$emit
+## $emit
 
 子组件向父组件进行通信
 ```js
- //父组件
+
  <son :show.sync="show"></son>
- //子组件
+
  this.$emit('update:show',false); 
 ```
 3、$props
@@ -34,8 +34,8 @@
 <child v-bind="$props"></child>
 ```
 
-4、$listeners
-<!-- 子组件可以通过this.$listeners 获取它在父组件中绑定的事件，父组件可以通过v-on="$listeners" 把它自己在自己的父组件中绑定的事件进行传递 -->
+## $listeners
+
 子组件向爷爷组件发送消息可通过在父组件中绑定v-on="$listeners"进行传递
 ```vue
 //爷爷组件
@@ -121,14 +121,14 @@ export default {
 可参考https://www.cnblogs.com/wjw1014/p/13739450.html
 ```
 
-5、$off或$destroy
+## $off或$destroy
  移除自定义事件监听器，去除组件所有的$on事件
  ```js
 this.$off() 或者
 this.destroy()
  ```
 
-6、provider/inject
+## provider/inject
 
 简单的来说就是在父组件中通过provider来提供变量，然后在子组件中通过inject来注入变量。<br>
 
@@ -201,10 +201,10 @@ this.destroy()
 在2个子组件中我们使用jnject注入了provide提供的变量for，那么就都可以拿到for这个变量
 ```
 ```
-7、$attrs
+## $attrs
 子组件不用写props部分的内容就可以直接获取在父组件中绑定的所有参数吗，并可以向自己的子组件绑定v-bind="$attrs" 可通过{{$attrs.xxx}}直接获取参数值
 ```
-8、Vue任意组件间通信方式
+## Vue任意组件间通信方式
 ```js
 this.$bus.$emit('eventName',value) //触发事件
 this.$bus.$on('eventName',()=>{})  //接收事件
@@ -215,7 +215,7 @@ this.$bus.$on('eventName',()=>{})  //接收事件
 ```
 vue-cli-service build 环境设置
 
-::: tip <span style="color:#999;font-weight: initial;"><a href="https://blog.csdn.net/linbenjian/article/details/85261201">猛戳详细原文介绍</a></span> 🎉 💯
+::: tip <span style="color:#999;font-weight: initial;"><a href="https://blog.csdn.net/linbenjian/article/details/85261201" target="_blank" rel="noreferrer">猛戳详细原文介绍</a></span> 🎉 💯
 &ensp;                     				  
 :::
 ```js

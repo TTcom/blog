@@ -103,7 +103,7 @@ c）规则：
 最后需要强调的一点是，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。
 简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。
 ```
-<a href="https://blog.csdn.net/qq_37818095/article/details/82145062" target="view_window">如何在Vue项目中使用vw实现移动端适配</a>
+<a href="https://blog.csdn.net/qq_37818095/article/details/82145062"  target="_blank" rel="noreferrer">如何在Vue项目中使用vw实现移动端适配</a>
 
 
 ### git stash

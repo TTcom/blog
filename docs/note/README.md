@@ -60,8 +60,8 @@
 </html>
 ```
 - 点击start后多次来回切换路由可以观察到控制台上有蓝色的线条明显升高，说明产生了内存泄漏
-<img :src="$withBase('/leak1.png')" alt="dock">
-<img :src="$withBase('/leak2.png')" alt="dock">
+![foo](/leak1.png){data-zoomable}
+![foo](/leak2.png){data-zoomable}
 - 修复之后，Vue实例可以被回收
 ``` html
 <!doctype html>
@@ -127,4 +127,4 @@
 </html>
 
 ```
-<img :src="$withBase('/leak3.png')" alt="dock">
+![foo](/leak3.png){data-zoomable}

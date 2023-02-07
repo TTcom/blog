@@ -10,7 +10,7 @@
 
 
 
-::: tip <span style="color:#999;font-weight: initial;"><a href="https://github.com/TTcom/vue3_learn">vue3_learn demo链接</a></span> 🎉 💯
+::: tip <span style="color:#999;font-weight: initial;"><a href="https://github.com/TTcom/vue3_learn"  target="_blank" rel="noreferrer">vue3_learn demo链接</a></span> 🎉 💯
 &ensp;                     				  
 :::
 

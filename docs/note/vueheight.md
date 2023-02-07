@@ -1,5 +1,5 @@
 # 使用 Vue Transition 实现高度渐变动画
-::: tip <span style="color:#999;font-weight: initial;"><a href="https://blogs.vicsdf.com/article/638#">原文链接</a></span> 🎉 💯
+::: tip <span style="color:#999;font-weight: initial;"><a href="https://blogs.vicsdf.com/article/638#"  target="_blank" rel="noreferrer">原文链接</a></span> 🎉 💯
 &ensp;                     				  
 :::
 CSS Transition 中的高度从 0 到 auto 以及从 auto 到 0 是个艰难的任务（相比于其它属性的 transition 而言），原因也很简单：就是浏览器不支持此类 CSS 动画，无论在何种情况下，它都不会成功。

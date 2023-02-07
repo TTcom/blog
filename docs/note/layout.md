@@ -1,14 +1,14 @@
 # 移动端调试和适配问题
-### 使用vw单位适配
+## 使用vw单位适配
 - 参考链接https://juejin.cn/post/7061866685166256142
 - postcss-px-to-viewport依赖作者长时间未更新导致include无效，可安装postcss-px-to-viewport-update替换
-### 关于连接真机进行移动端调试问题
+## 关于连接真机进行移动端调试问题
 - 使用chrome调试需要科学上网地址栏输入chrome://inspect会打开设备监视页面 
 - 使用edg浏览器调试需要科学上网地址栏输入edge://inspect/#devices，然后等待页面出现WebView in com.tdh.shell.app (65.0.3325.110)点击inspect
 - 使用谷歌浏览器需翻墙才能看到手机页面，亲测可以，使用edg浏览器不用翻墙未测试过
 - 可参考https://www.ruanyifeng.com/blog/2019/06/android-remote-debugging.html
 
-### 关于移动端适配
+## 关于移动端适配
 
 - 使用flexible.js或hotCss.js 改js可适配不同屏幕-使用动态的HTML根字体大小和动态的viewport scale
 - 安装插件postcss-plugin-px2rem该插件可将px转为rem
