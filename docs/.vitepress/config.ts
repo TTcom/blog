@@ -8,6 +8,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: '/' }
     ],
+    nav: [
+      { text: 'Vue', link: '/vue/README' },
+      { text: 'Git', link: '/git/README' },
+    ],
     sidebar: [
       {
         text: 'nginx',
@@ -111,6 +115,7 @@ export default defineConfig({
       {
         text: 'note',
         items: [
+          { text: 'npm', link: '/note/npm' },
           { text: 'note', link: '/note/README' },
           { text: 'nodeDeploy', link: '/note/nodeDeploy' },
           { text: 'pspeople', link: '/note/pspeople' },

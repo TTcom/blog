@@ -12,9 +12,12 @@ hero:
     - theme: brand
       text: Get Started
       link: /javascript/README
+    - theme: brand
+      text: Vitepress
+      link: https://vitepress.vuejs.org/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/810505339/vite-interview
+      link: https://github.com/TTcom/blog
 features:
   - title: "Vite: The DX that can't be beat"
     details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
