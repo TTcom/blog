@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const C=JSON.parse('{"title":"箭头css","description":"","frontmatter":{},"headers":[],"relativePath":"note/rowcss.md"}'),p={name:"note/rowcss.md"},o=l("",2),e=[o];function t(c,r,D,F,y,B){return n(),a("div",null,e)}const E=s(p,[["render",t]]);export{C as __pageData,E as default};

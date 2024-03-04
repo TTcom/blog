@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const E=JSON.parse('{"title":"原型链","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/prototype.md"}'),o={name:"javascript/prototype.md"},p=l("",3),t=[p];function e(c,r,y,D,i,F){return n(),a("div",null,t)}const _=s(o,[["render",e]]);export{E as __pageData,_ as default};

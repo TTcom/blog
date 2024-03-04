@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.9328da71.js";const C=JSON.parse('{"title":"vue_transition","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue_transition.md"}'),p={name:"vue/vue_transition.md"},o=l("",7),e=[o];function t(c,r,D,y,i,B){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};

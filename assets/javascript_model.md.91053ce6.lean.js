@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const i=JSON.parse('{"title":"设计模式","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/model.md"}'),p={name:"javascript/model.md"},o=l("",2),e=[o];function t(c,r,y,D,F,B){return n(),a("div",null,e)}const E=s(p,[["render",t]]);export{i as __pageData,E as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.9328da71.js";const A=JSON.parse('{"title":"函数","description":"","frontmatter":{},"headers":[],"relativePath":"typescript/fun.md"}'),o={name:"typescript/fun.md"},p=l("",4),e=[p];function t(c,r,F,y,D,i){return a(),n("div",null,e)}const d=s(o,[["render",t]]);export{A as __pageData,d as default};

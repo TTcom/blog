@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const E=JSON.parse('{"title":"深拷贝与浅拷贝","description":"","frontmatter":{},"headers":[],"relativePath":"note/deepclone.md"}'),o={name:"note/deepclone.md"},p=l("",3),t=[p];function e(c,r,y,F,D,i){return n(),a("div",null,t)}const A=s(o,[["render",e]]);export{E as __pageData,A as default};

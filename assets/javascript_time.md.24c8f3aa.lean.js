@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const i=JSON.parse('{"title":"时间相关操作","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/time.md"}'),o={name:"javascript/time.md"},p=l("",2),e=[p];function t(c,y,r,F,D,A){return n(),a("div",null,e)}const E=s(o,[["render",t]]);export{i as __pageData,E as default};

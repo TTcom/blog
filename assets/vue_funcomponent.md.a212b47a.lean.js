@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const A=JSON.parse('{"title":"vue函数式组件","description":"","frontmatter":{},"headers":[],"relativePath":"vue/funcomponent.md"}'),p={name:"vue/funcomponent.md"},o=l("",4),t=[o];function e(c,D,F,r,y,B){return n(),a("div",null,t)}const E=s(p,[["render",e]]);export{A as __pageData,E as default};

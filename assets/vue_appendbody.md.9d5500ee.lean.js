@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const E=JSON.parse('{"title":"vue中将弹出框插入body中","description":"","frontmatter":{},"headers":[],"relativePath":"vue/appendbody.md"}'),p={name:"vue/appendbody.md"},o=l("",2),t=[o];function e(c,F,r,D,y,i){return n(),a("div",null,t)}const A=s(p,[["render",e]]);export{E as __pageData,A as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const E=JSON.parse('{"title":"vue中点击空白处隐藏弹出框","description":"","frontmatter":{},"headers":[],"relativePath":"vue/clickoutside.md"}'),p={name:"vue/clickoutside.md"},o=l("",2),e=[o];function t(c,F,r,D,y,i){return n(),a("div",null,e)}const A=s(p,[["render",t]]);export{E as __pageData,A as default};

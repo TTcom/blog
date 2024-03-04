@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.9328da71.js";const i=JSON.parse('{"title":"ES10flat","description":"","frontmatter":{},"headers":[],"relativePath":"array/flat.md"}'),p={name:"array/flat.md"},o=l("",11),t=[o];function e(c,r,y,D,F,B){return a(),n("div",null,t)}const E=s(p,[["render",e]]);export{i as __pageData,E as default};

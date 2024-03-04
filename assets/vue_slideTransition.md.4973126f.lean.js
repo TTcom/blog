@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const C=JSON.parse('{"title":"vue页面切换动画","description":"","frontmatter":{},"headers":[],"relativePath":"vue/slideTransition.md"}'),p={name:"vue/slideTransition.md"},o=l("",5),e=[o];function t(c,F,r,D,y,i){return n(),a("div",null,e)}const A=s(p,[["render",t]]);export{C as __pageData,A as default};

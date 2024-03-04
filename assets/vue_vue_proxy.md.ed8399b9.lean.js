@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const E=JSON.parse('{"title":"vue_proxy","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue_proxy.md"}'),p={name:"vue/vue_proxy.md"},o=l("",3),t=[o];function e(c,r,y,D,F,i){return n(),a("div",null,t)}const A=s(p,[["render",e]]);export{E as __pageData,A as default};

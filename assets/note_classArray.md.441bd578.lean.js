@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.9328da71.js";const A=JSON.parse('{"title":"类数组对象","description":"","frontmatter":{},"headers":[],"relativePath":"note/classArray.md"}'),p={name:"note/classArray.md"},o=l("",4),e=[o];function t(r,c,D,y,F,i){return a(),n("div",null,e)}const E=s(p,[["render",t]]);export{A as __pageData,E as default};

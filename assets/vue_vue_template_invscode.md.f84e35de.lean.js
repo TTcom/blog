@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as o}from"./app.9328da71.js";const B=JSON.parse('{"title":"vue_template_invscode","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue_template_invscode.md"}'),l={name:"vue/vue_template_invscode.md"},p=o("",3),t=[p];function e(c,D,r,F,y,u){return n(),a("div",null,t)}const E=s(l,[["render",e]]);export{B as __pageData,E as default};

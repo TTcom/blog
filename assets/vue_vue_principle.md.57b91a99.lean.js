@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.9328da71.js";const A=JSON.parse('{"title":"vue_principle","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue_principle.md"}'),p={name:"vue/vue_principle.md"},o=l("",2),e=[o];function t(c,r,y,F,D,i){return n(),a("div",null,e)}const E=s(p,[["render",t]]);export{A as __pageData,E as default};
