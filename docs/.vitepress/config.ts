@@ -108,6 +108,7 @@ export default defineConfig({
           { text: 'git', link: '/git/README' },
           { text: 'git代码提交', link: '/git/aboutgit' },
           { text: '向开源项目提PR', link: '/git/pullRequest' },
+          { text: 'Git如何合并两个仓库的代码', link: '/git/gitmergeab' },
           { text: 'vuepress2.0部署', link: '/git/vuepress2' },
         ],
         collapsed: true
@@ -136,6 +137,13 @@ export default defineConfig({
           { text: 'rowcss', link: '/note/rowcss' },
           { text: 'aboutcss', link: '/note/aboutcss' },
           { text: 'vueheight', link: '/note/vueheight' },
+        ],
+        collapsed: true
+      },
+      {
+        text: 'windows',
+        items: [
+          { text: 'windows', link: '/windows/README' },
         ],
         collapsed: true
       },
