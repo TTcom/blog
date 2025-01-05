@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.7c722b35.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue3learn.md"}'),r={name:"vue/vue3learn.md"};function n(o,s,c,p,_,d){return t(),a("div")}const u=e(r,[["render",n]]);export{l as __pageData,u as default};

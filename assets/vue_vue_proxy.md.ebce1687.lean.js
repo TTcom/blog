@@ -1,0 +1,32 @@
+import{_ as n,o as a,c as l,a as p}from"./app.7c722b35.js";const i=JSON.parse('{"title":"vue_proxy","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue_proxy.md"}'),o={name:"vue/vue_proxy.md"};function t(e,s,c,r,y,D){return a(),l("div",null,s[0]||(s[0]=[p(`<h1 id="vue-proxy" tabindex="-1">vue_proxy <a class="header-anchor" href="#vue-proxy" aria-hidden="true">#</a></h1><p>首先需要在vue.config.js中进行服务器代理配置来解决接口跨域的问题</p><div class="language-js"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#89DDFF;">module.exports</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">=</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#BABED8;">	</span><span style="color:#F07178;">devServer</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#BABED8;">	    </span><span style="color:#F07178;">port</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#F78C6C;">8086</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#BABED8;">		</span><span style="color:#F07178;">proxy</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span><span style="color:#BABED8;">         </span><span style="color:#676E95;font-style:italic;">//服务器代理，解决前后端接口跨域问题</span></span>
+<span class="line"><span style="color:#BABED8;">		  </span><span style="color:#89DDFF;">&#39;</span><span style="color:#F07178;">/</span><span style="color:#89DDFF;">&#39;</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span><span style="color:#BABED8;">    </span><span style="color:#676E95;font-style:italic;">//这里写需要以什么开头的地址才会去代理    </span></span>
+<span class="line"><span style="color:#89DDFF;">					</span><span style="color:#676E95;font-style:italic;">//1、这里写以什么开头的地址才会去代理；</span></span>
+<span class="line"><span style="color:#89DDFF;">					</span><span style="color:#676E95;font-style:italic;">//注意/abc是前端自己自定义的参数名称或者是实际的请求地址的参数名称</span></span>
+<span class="line"><span style="color:#89DDFF;">					</span><span style="color:#676E95;font-style:italic;">//2、在项目中&#39;只要是&#39;/abc&#39;开头的请求地址才用代理.</span></span>
+<span class="line"><span style="color:#89DDFF;">					</span><span style="color:#676E95;font-style:italic;">//所以你的接口就要这么写 /abc/xx/xx. </span></span>
+<span class="line"><span style="color:#89DDFF;">					</span><span style="color:#676E95;font-style:italic;">//3、如果要代理所有的请求地址就写为&quot;/&quot;</span></span>
+<span class="line"><span style="color:#BABED8;">		    </span><span style="color:#F07178;">target</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">&#39;</span><span style="color:#C3E88D;">http://172.16.188.16:81</span><span style="color:#89DDFF;">&#39;</span><span style="color:#89DDFF;">,</span><span style="color:#BABED8;">   </span><span style="color:#676E95;font-style:italic;">//服务器地址</span></span>
+<span class="line"><span style="color:#BABED8;">		    </span><span style="color:#F07178;">changeOrigin</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#FF9CAC;">true</span><span style="color:#89DDFF;">,</span><span style="color:#BABED8;">   </span><span style="color:#676E95;font-style:italic;">//是否更改主机站点</span></span>
+<span class="line"><span style="color:#BABED8;">			</span><span style="color:#F07178;">ws</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#FF9CAC;">false</span><span style="color:#89DDFF;">,</span><span style="color:#BABED8;">    </span><span style="color:#676E95;font-style:italic;">//是否代理websockets</span></span>
+<span class="line"><span style="color:#89DDFF;">			</span><span style="color:#676E95;font-style:italic;">// pathRewrite: {  //如果上面的/abc不是实际的请求地址的开头参数那么在这里就要进行冲洗写实际请求时的地址名称</span></span>
+<span class="line"><span style="color:#89DDFF;">			</span><span style="color:#676E95;font-style:italic;">//   &#39;^/a&#39;: &#39;/mark&#39;</span></span>
+<span class="line"><span style="color:#89DDFF;">			</span><span style="color:#676E95;font-style:italic;">// }</span></span>
+<span class="line"><span style="color:#BABED8;">		  </span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#BABED8;">		</span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#BABED8;">	  </span><span style="color:#89DDFF;">},</span></span>
+<span class="line"><span style="color:#BABED8;">		</span><span style="color:#F07178;">css</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#BABED8;">		    </span><span style="color:#F07178;">loaderOptions</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span><span style="color:#BABED8;"> </span><span style="color:#676E95;font-style:italic;">// 向 CSS 相关的 loader 传递选项</span></span>
+<span class="line"><span style="color:#BABED8;">		      </span><span style="color:#F07178;">less</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#BABED8;">		        </span><span style="color:#F07178;">javascriptEnabled</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> </span><span style="color:#FF9CAC;">true</span></span>
+<span class="line"><span style="color:#BABED8;">		      </span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#BABED8;">		    </span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#BABED8;">		  </span><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"></span></code></pre></div>`,3)]))}const B=n(o,[["render",t]]);export{i as __pageData,B as default};
